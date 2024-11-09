@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-filepath = 'D:/cleaned.csv'
+filepath = 'data/000001.SZ.csv'
 data = pd.read_csv(filepath)
 data = data.sort_values('trade_date')
 print(data.head())
